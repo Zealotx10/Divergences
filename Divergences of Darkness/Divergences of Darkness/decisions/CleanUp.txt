@@ -256,7 +256,7 @@ political_decisions = {
 				AND = { exists = yes NOT = { has_country_flag = existing_country } }
 			}
 			any_neighbor_country = {
-				ai = no
+				#ai = no
 				OR = {
 					AND = { government = theocracy NOT = { has_country_flag = theocratic_government } }
 					AND = { government = proletarian_dictatorship NOT = { has_country_flag = communist_gov } }
